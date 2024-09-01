@@ -1,4 +1,5 @@
 import { Outlet } from '@remix-run/react';
+
 import { H1 } from '~/components/headings';
 
 export default function Component() {
@@ -15,19 +16,16 @@ export default function Component() {
             <li>
               <a href="/dashboard/expenses/1">
                 <p className="text-xl font-semibold">Food</p>
-                <p>$100</p>
               </a>
-            </li>{' '}
+            </li>
             <li>
               <a href="/dashboard/expenses/2">
                 <p className="text-xl font-semibold">Transport</p>
-                <p>$100</p>
               </a>
             </li>
             <li>
               <a href="/dashboard/expenses/3">
                 <p className="text-xl font-semibold">Entertainment</p>
-                <p>$100</p>
               </a>
             </li>
           </ul>
